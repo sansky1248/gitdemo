@@ -1,0 +1,48 @@
+thsi is version 1 of my project
+initial commit done !
+
+
+git status
+git init
+git add --a (all at a time)
+git commit -m "Initial Commit" (initial commit at start)
+git log (check commit)
+git add text.txt (commit single file at a time)
+rm -rf .git (git init delete)
+
+pwd present working directory
+ls list 
+cd change directory
+
+.gitignore (to ignore specific file or multiple file and directory's)
+*.log (to select all this .log extension files)
+dir/ - path of a directory
+
+git diff - it compares stagging and current modified files
+git diff --stagged  - it compares last commit and current stagging
+
+git commit -a -m "commit without stagging"(skkiping the stagging)
+
+git rm (removed file)
+
+git mv first.txt first_renamed.txt (renamed cmd)
+
+git rm --cached db.accdb (untrack file)
+
+rm -rf .git (remove git repository)
+
+git clone url folder_name (clone any repository)
+
+git log 
+git log -p ( shows commit + what removed)
+git log -p -3 ( shows cmmmit at a time)
+git log --stat (shows cmmit in short)
+git log --pretty=oneline (shows commit in one line)
+git log --pretty=short 
+git log --pretty=full
+git log --pretty:format (docs git.log)
+
+git log --since=2.days (shows only two days)
+git log --since=2.months (shows only two months) years also
+
+git amend (change any commit)

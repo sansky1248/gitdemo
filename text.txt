@@ -46,3 +46,9 @@ git log --since=2.days (shows only two days)
 git log --since=2.months (shows only two months) years also
 
 git amend (change any commit)
+
+git restore file name (to restore from stagging area)
+
+git checkout -- file_name (restore previous stage of file)
+
+git checkout -f (go to previous cmmit / dangerous also)

@@ -52,3 +52,20 @@ git restore file name (to restore from stagging area)
 git checkout -- file_name (restore previous stage of file)
 
 git checkout -f (go to previous cmmit / dangerous also)
+
+
+HOW TO ADD SSH KEYS
+$ ssh-keygen -t ed25519 -C "santoshyadav31383138@gmail.com"
+$ cat /c/Users/abc/.ssh/id_ed25519.pub
+
+touch gitignore
+git config - -global user.name Harry
+git config - -global user.email youremai1@example.com
+git init
+git add
+git commit -m "Initial Commit"
+git status # Just to see
+ssh-keygen -t rsa -b 4096 C "youremai1@example.com"
+tail <path to id_rsa.pub> # Add this key to your GitHub account
+git remote add orign <ssh url.git»
+git push origin master
